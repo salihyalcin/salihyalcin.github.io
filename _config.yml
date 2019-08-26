@@ -43,17 +43,13 @@ projects:
   # twitter: your_username
   # unsplash: your_username
   # vk: your_username
-   website: https://gislog.wordpress.com/
+  # website: https://gislog.wordpress.com/
   # youtube: your_username
 
 topics:
   - name: CSS
     web_url: https://github.com/topics/css
     image_url: https://raw.githubusercontent.com/github/explore/6c6508f34230f0ac0d49e847a326429eefbfc030/topics/css/css.png
-
- - name: aaffafaf
-    web_url: https://github.com/topics/css
-    image_url: https://lh3.googleusercontent.com/fzRqDkNHaKi15jrKUqjR5EgnpDaEF_1LGHucmzhfis2mD8_selh0eN0tHuzH-mE18Q=s180-rw
 
   - name: Sass
     web_url: https://github.com/topics/sass
