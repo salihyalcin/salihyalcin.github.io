@@ -1,0 +1,48 @@
+# Site settings
+title: Your Name - Senior Android Developer
+email: your.email@example.com
+description: >-
+  Senior Android Developer specializing in modern, scalable mobile applications
+  with expertise in Kotlin, Jetpack Compose, and CI/CD.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # your site's production URL
+github_username: salihyalcin
+linkedin_username: salihyalcin89
+twitter_username: salihyalcin_
+
+# Build settings
+markdown: kramdown
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-paginate
+
+# Collections
+collections:
+  projects:
+    output: true
+    permalink: /projects/:path/
+
+# Defaults
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+  - scope:
+      path: ""
+      type: "projects"
+    values:
+      layout: "project"
+  - scope:
+      path: ""
+    values:
+      layout: "default"
+
+# Exclude from processing
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor 

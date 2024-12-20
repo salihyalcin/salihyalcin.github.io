@@ -1,0 +1,33 @@
+<header class="bg-white shadow-sm sticky top-0 z-50">
+    <nav class="container mx-auto px-4">
+        <div class="flex justify-between items-center h-16">
+            <a href="{{ '/' | relative_url }}" class="text-xl font-bold">
+                {{ site.title | split: '-' | first }}
+            </a>
+            
+            <div class="hidden md:flex space-x-8">
+                <a href="{{ '/' | relative_url }}" class="text-gray-700 hover:text-gray-900">Home</a>
+                <a href="{{ '/about' | relative_url }}" class="text-gray-700 hover:text-gray-900">About</a>
+                <a href="{{ '/projects' | relative_url }}" class="text-gray-700 hover:text-gray-900">Projects</a>
+                <a href="{{ '/blog' | relative_url }}" class="text-gray-700 hover:text-gray-900">Blog</a>
+            </div>
+
+            <!-- Mobile menu button -->
+            <button class="md:hidden" id="mobile-menu-button">
+                <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/>
+                </svg>
+            </button>
+        </div>
+
+        <!-- Mobile menu -->
+        <div class="hidden md:hidden" id="mobile-menu">
+            <div class="px-2 pt-2 pb-3 space-y-1">
+                <a href="{{ '/' | relative_url }}" class="block px-3 py-2 text-gray-700 hover:text-gray-900">Home</a>
+                <a href="{{ '/about' | relative_url }}" class="block px-3 py-2 text-gray-700 hover:text-gray-900">About</a>
+                <a href="{{ '/projects' | relative_url }}" class="block px-3 py-2 text-gray-700 hover:text-gray-900">Projects</a>
+                <a href="{{ '/blog' | relative_url }}" class="block px-3 py-2 text-gray-700 hover:text-gray-900">Blog</a>
+            </div>
+        </div>
+    </nav>
+</header> 
