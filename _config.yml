@@ -5,7 +5,7 @@ description: >-
   Senior Android Developer specializing in modern, scalable mobile applications
   with expertise in Kotlin, Jetpack Compose, and CI/CD.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # your site's production URL
+url: "https://salihyalcin.github.io" # your site's production URL
 github_username: salihyalcin
 linkedin_username: salihyalcin89
 twitter_username: salihyalcin_
